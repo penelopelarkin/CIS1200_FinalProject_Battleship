@@ -68,6 +68,7 @@
 
 - Provide an overview of each of the classes in your code, and what their
   function is in the overall game.
+
   I have a Battleship class which implements all of my game logic. For example, the
   reset method places/instantiates a random number of ships of random length randomly on the board.
   The playTurn method iterates through the collection of ships and calls the isHit() method
